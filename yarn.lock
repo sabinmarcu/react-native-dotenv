@@ -3,10 +3,15 @@
 
 
 "babel-plugin-dotenv@https://github.com/sabinmarcu/babel-plugin-dotenv.git":
-  version "0.1.0"
-  resolved "https://github.com/sabinmarcu/babel-plugin-dotenv.git#91c5e8569e68f819c6ff1246caa181e2eeaac622"
+  version "0.1.1"
+  resolved "https://github.com/sabinmarcu/babel-plugin-dotenv.git#b845c0309212d7540780bdcc503edc0c776351ff"
   dependencies:
     dotenv "^2.0.0"
+    dotenv-expand "https://github.com/sabinmarcu/dotenv-expand.git"
+
+"dotenv-expand@https://github.com/sabinmarcu/dotenv-expand.git":
+  version "4.2.1"
+  resolved "https://github.com/sabinmarcu/dotenv-expand.git#e5424a2a4377715f8d8c8f6b3710977d7089c22c"
 
 dotenv@^2.0.0:
   version "2.0.0"
